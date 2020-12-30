@@ -1,0 +1,15 @@
+#PHP Settings
+php_modules: [ 'php', 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+ 
+#MySQL Settings
+mysql_root_old_password: "mysqlpasswd"
+mysql_root_password: "asael00515"
+mysql_db: "wpdb"
+mysql_user: "wpuser"
+mysql_password: "password"
+mysql_port: "3306"
+ 
+#HTTP Settings
+http_host: "wp.exemple.com"
+http_conf: "wp.exemple.com.conf"
+http_port: "80"

@@ -1,0 +1,22 @@
+---
+
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
+front_serveur:
+  hosts:
+    web: 
+      ansible_user: odellya
+      ansible_become: yes   
+
+prodserver:
+  hosts:
+    master:
+      ansible_user: odellya
+      ansible_become: yes
+database_server:
+  hosts:
+    bdd:
+      ansible_user: odellya
+      ansible_become: yes

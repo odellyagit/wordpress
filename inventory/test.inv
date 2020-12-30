@@ -1,0 +1,10 @@
+localhost
+
+[front]
+web
+
+[database]
+bdd
+
+[front:vars]
+ansible_user=odellya

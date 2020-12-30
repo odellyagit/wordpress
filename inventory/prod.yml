@@ -1,0 +1,16 @@
+---
+
+front:
+  hosts:
+    frontal-prod-1: {}
+    frontal-prod-2: {}
+  vars:
+    wp_url: "lb-prod"
+
+database:
+  hosts:
+    bdd-prod: {}
+
+lb:
+  hosts:
+    lb-prod: {}
